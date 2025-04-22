@@ -1,11 +1,12 @@
 #topo {
-  height: 150px; /* mantém altura do topo */
- 
+  height: 150px;
+  background: url('https://i.imgur.com/RD5F6T9.png') no-repeat right top; /* imagem exemplo funcionando */
   padding-top: 25px;
   position: relative;
-  margin-bottom: 30px; /* espaço abaixo do topo para o conteúdo */
+  margin-bottom: 30px;
   box-sizing: border-box;
 }
+
 
 #topo ul {
   margin-top: 30px;
