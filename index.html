@@ -1,80 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Notícias de Hoje</title>
-  <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Today's News</title>
+  <link rel="stylesheet" href="estilo.css" />
 </head>
 <body class="home">
   <div id="container">
-    
-    <div id="topo">
-      <h1 class="logo">Notícias de Hoje</h1>
 
+    <!-- Top Header -->
+    <div id="topo">
+      <h1 class="logo">Today's News</h1>
+
+      <!-- Navigation -->
       <ul id="navegacao">
-        <li class="primeiro"><a href="#" id="home">Home</a></li>
-        <li><a href="#" id="brasil">Brasil</a></li>
-        <li><a href="#" id="internacional">Internacional</a></li>
-        <li><a href="#" id="economia">Economia</a></li>
-        <li><a href="#" id="saude">Saúde</a></li>
-        <li><a href="#" id="ciencia">Ciência</a></li>
-        <li><a href="#" id="fotos">Fotos</a></li>
+        <li><a href="#" id="home">Home</a></li>
+        <li><a href="#">Brazil</a></li>
+        <li><a href="#">International</a></li>
+        <li><a href="#">Economy</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Science</a></li>
+        <li><a href="#">Photos</a></li>
       </ul>
     </div>
 
+    <!-- Content Area -->
     <div id="conteudo">
+
+      <!-- Sidebar -->
       <div id="lateral">
         <div class="caixa">
-          <h2>Categorias</h2>
+          <h2>Categories</h2>
           <div class="caixa-conteudo">
             <ul>
-              <li><a href="#">Política</a></li>
-              <li><a href="#">Esportes</a></li>
-              <li><a href="#">Tecnologia</a></li>
+              <li><a href="#">Politics</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Technology</a></li>
             </ul>
           </div>
         </div>
       </div>
 
+      <!-- Main News -->
       <div id="primario">
         <div class="caixa destaque">
-          <h2>Destaque</h2>
+          <h2>Featured</h2>
           <div class="caixa-conteudo">
-            <img class="imagem-principal" src="https://source.unsplash.com/800x400/?news,city" alt="Imagem de destaque">
-            <h3>Nova Lei Ambiental é aprovada</h3>
-            <p>Foi aprovada nesta semana a nova legislação sobre áreas de preservação...</p>
+            <img class="imagem-principal" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Main image">
+            <h3>New Environmental Law Approved</h3>
+            <p>This week, the new legislation on protected areas was officially approved...</p>
           </div>
         </div>
       </div>
 
+      <!-- Secondary News -->
       <div id="secundario">
         <div class="caixa entrevista">
-          <h2>Entrevistas</h2>
+          <h2>Interviews</h2>
           <div class="caixa-conteudo">
             <ul id="lista-noticias">
               <li>
                 <a href="#">
-                  <img src="https://source.unsplash.com/80x60/?person,interview" alt="">
-                  <h3>Ministro comenta nova política</h3>
-                  <p>“Precisamos de mudanças estruturais”, diz ministro.</p>
+                  <img src="https://images.unsplash.com/photo-1581090700227-4c4ef978b8c5?auto=format&fit=crop&w=80&h=60&q=80" alt="Interview 1">
+                  <div>
+                    <h3>Minister Comments on Policy</h3>
+                    <p>"We need structural change," says the minister.</p>
+                  </div>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="https://source.unsplash.com/80x60/?journalist,interview" alt="">
-                  <h3>Repórter traz bastidores</h3>
-                  <p>Veja os detalhes do que aconteceu no Congresso.</p>
+                  <img src="https://images.unsplash.com/photo-1580894908361-967195033346?auto=format&fit=crop&w=80&h=60&q=80" alt="Interview 2">
+                  <div>
+                    <h3>Reporter Brings Behind the Scenes</h3>
+                    <p>See what happened in Congress.</p>
+                  </div>
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </div>
+
     </div>
 
+    <!-- Footer -->
     <div id="container-rodape">
       <div id="rodape">
-        &copy; 2025 Notícias de Hoje
+        &copy; 2025 Today's News
       </div>
     </div>
 
