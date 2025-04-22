@@ -7,11 +7,14 @@
 body {
   font-family: "Trebuchet MS", sans-serif;
   background: #f0f0f0 url('https://www.transparenttextures.com/patterns/cubes.png') repeat;
+  margin: 0; /* remove margem padrão do body */
 }
 
 #container {
-  width: 960px;
+  max-width: 960px;
+  width: 100%;
   margin: auto;
+  padding: 0 15px; /* espaço lateral para telas pequenas */
 }
 
 #top {
@@ -36,6 +39,7 @@ ul {
   margin-top: 30px;
   background: #b10333;
   display: flex;
+  flex-wrap: wrap; /* para que menus quebrem linha se necessário */
 }
 
 #top ul li {
@@ -69,6 +73,7 @@ body.home #navigation a#home {
 
 #content {
   display: flex;
+  flex-wrap: wrap; /* permite quebrar para telas menores */
   margin-top: 40px;
   background: #fff;
   padding: 20px;
@@ -76,15 +81,18 @@ body.home #navigation a#home {
 }
 
 #sidebar {
-  width: 20%;
+  flex: 1 1 20%;
+  min-width: 200px;
 }
 
 #main {
-  width: 50%;
+  flex: 2 1 50%;
+  min-width: 300px;
 }
 
 #secondary {
-  width: 30%;
+  flex: 1 1 30%;
+  min-width: 250px;
 }
 
 .box {
